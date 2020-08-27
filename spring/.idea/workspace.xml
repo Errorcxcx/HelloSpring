@@ -10,11 +10,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -39,6 +42,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1gd2cVzl4QI2RuJXr0SsptHiRYo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -49,13 +53,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11.0.4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HelloSpring/HelloMaven" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.SpringTest.test1">
+  <component name="RunManager" selected="JUnit.DataSourceTest.test4">
     <configuration name="UserDaoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.itheima.demo.UserDaoDemo" />
       <module name="itheima_spring_ioc" />
@@ -65,6 +69,54 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataSourceTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itheima_spring_ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.DataSourceTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataSourceTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itheima_spring_ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.DataSourceTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataSourceTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itheima_spring_ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.DataSourceTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -222,13 +274,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 9" />
       <item itemvalue="Application.UserDaoDemo" />
       <item itemvalue="JUnit.SpringTest.test1" />
+      <item itemvalue="Tomcat Server.Tomcat 9" />
+      <item itemvalue="JUnit.DataSourceTest.test1" />
+      <item itemvalue="JUnit.DataSourceTest.test2" />
+      <item itemvalue="JUnit.DataSourceTest.test4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DataSourceTest.test4" />
         <item itemvalue="JUnit.SpringTest.test1" />
+        <item itemvalue="JUnit.DataSourceTest.test2" />
+        <item itemvalue="JUnit.DataSourceTest.test1" />
         <item itemvalue="Application.UserDaoDemo" />
       </list>
     </recent_temporary>
@@ -242,11 +300,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -266,6 +319,8 @@
       <option name="presentableId" value="Default" />
       <updated>1598430227696</updated>
       <workItem from="1598430229302" duration="5043000" />
+      <workItem from="1598488662649" duration="9173000" />
+      <workItem from="1598517393948" duration="5011000" />
     </task>
     <servers />
   </component>
@@ -277,14 +332,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598432255376" />
+    <state x="576" y="384" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog" timestamp="1598522635618">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="576" y="384" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598522635618" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598432258661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598432258661" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1598432937660">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1598507529591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598432937660" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598507529591" />
     <state x="552" y="178" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1598432053872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -301,22 +360,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="601" y="232" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598431582753" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598435036872">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598522687898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598435036872" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598435036872">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598522687898" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598522687898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598435036872" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598435036871">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598522687898" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598522687898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598435036871" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598435036872">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598522687898" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598522687898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598435036872" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598522687898" />
     <state width="1293" height="282" key="GridCell.Tab.1.bottom" timestamp="1598432089169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -349,13 +408,35 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1293" height="282" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598432089169" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1598434784904">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1598512264208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598434784904" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598512264208" />
     <state x="334" y="244" key="new project wizard" timestamp="1598430630101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="244" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598430630101" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/itheima_spring_ioc/src/test/java/com/itheima/test/SpringTest.java</url>
+          <line>12</line>
+          <properties class="com.itheima.test.SpringTest" method="test1">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/itheima_spring_ioc/src/test/java/com/itheima/test/DataSourceTest.java</url>
+          <line>48</line>
+          <properties class="com.itheima.test.DataSourceTest" method="test4">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

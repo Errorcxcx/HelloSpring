@@ -52,8 +52,7 @@
 
     <!-- 配置dbcp数据库连接池 -->
 
-<!--     <context:property-placeholder location="classpath:db.properties"/>-->
-<!--    数据库配置-->
+ <!--    数据库配置-->
     <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="locations">
             <list>
