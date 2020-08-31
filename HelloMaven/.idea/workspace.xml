@@ -78,7 +78,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -221,7 +221,7 @@
       <workItem from="1595215137465" duration="19958000" />
       <workItem from="1598427701638" duration="834000" />
       <workItem from="1598431585658" duration="8577000" />
-      <workItem from="1598517406322" duration="5541000" />
+      <workItem from="1598517406322" duration="7537000" />
     </task>
     <servers />
   </component>
@@ -342,11 +342,11 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1430" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1595220979868" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1598433633902">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1598852078067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1480" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1594980183312" />
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598433633902" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598852078067" />
     <state x="641" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1595219468832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

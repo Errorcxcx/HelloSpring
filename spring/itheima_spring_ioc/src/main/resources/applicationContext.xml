@@ -12,11 +12,11 @@
 
     <!--    </bean>-->
 
-    <bean id="userDao" class="com.itheima.com.itheima.dao.impl.UserDaoImpl">
+    <bean id="userDao" class="com.itheima.dao.impl.UserDaoImpl">
         <property name="userName" value="zhangsan"></property>
         <property name="age" value="18"></property>
     </bean>
-    <bean id="userservice" class="com.itheima.com.itheima.service.impl.UserServiceImpl">
+    <bean id="userservice" class="com.itheima.service.impl.UserServiceImpl">
         <property name="userDao" ref="userDao"></property>
 
     </bean>
