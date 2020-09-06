@@ -8,10 +8,14 @@ import com.itheima.domain.VO;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Date;
 import java.util.List;
@@ -23,7 +27,6 @@ public class UserController {
 
     @RequestMapping(value = "/quick")
     public String save() {
-        System.out.println("Controller save running...");
         return "success";
     }
 
@@ -162,5 +165,29 @@ public class UserController {
     @ResponseBody
     public void save18(Date date) throws JsonProcessingException {
         System.out.println(date);
+    }
+    @RequestMapping(value = "/quick20")
+    //告知SpringMVC框架不要进行页面跳转 直接回写
+    @ResponseBody
+    public void save20(@RequestHeader(value = "User-Agent") String user_agent) throws JsonProcessingException {
+        System.out.println(user_agent);
+    }
+
+    @RequestMapping(value = "/quick21")
+    //告知SpringMVC框架不要进行页面跳转 直接回写
+    @ResponseBody
+    public void save21(@CookieValue(value = "JSESSIONID") String jsessionId) throws JsonProcessingException {
+        System.out.println(jsessionId);
+    }
+
+    @RequestMapping(value = "/quick22")
+    //告知SpringMVC框架不要进行页面跳转 直接回写
+    @ResponseBody
+    public void save22(String username, MultipartFile uploadFile) throws IOException {
+        System.out.println(username);
+        System.out.println(uploadFile);
+        String fileName = uploadFile.getOriginalFilename();
+        uploadFile.transferTo(new File("H:\\sss\\"+fileName));
+
     }
 }
