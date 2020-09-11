@@ -6,6 +6,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.LinkedList;
+
 @Controller
 @RequestMapping("/hello")
 public class HelloCntroller {
@@ -18,7 +20,6 @@ public class HelloCntroller {
     public String sayHello(String name){
         System.out.println("ssss");
         return helloService.sayHello(name);
-
     }
 
 }
