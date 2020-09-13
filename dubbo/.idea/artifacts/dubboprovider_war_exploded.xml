@@ -1,13 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="dubboprovider:war exploded">
-    <output-path>$PROJECT_DIR$/dubboprovider/target/dubboprovider</output-path>
-    <properties id="maven-jee-properties">
-      <options>
-        <exploded>true</exploded>
-        <module>dubboprovider</module>
-        <packaging>war</packaging>
-      </options>
-    </properties>
+    <output-path>$PROJECT_DIR$/out/artifacts/dubboprovider_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -47,9 +40,6 @@
           <element id="library" level="project" name="Maven: org.apache.curator:curator-recipes:2.8.0" />
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.47" />
         </element>
-      </element>
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/dubboprovider/target/dubboprovider/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="dubboprovider/web/Web" />
     </root>

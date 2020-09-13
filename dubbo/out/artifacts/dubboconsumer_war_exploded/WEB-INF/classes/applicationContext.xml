@@ -18,9 +18,10 @@
        http://www.springframework.org/schema/tx/spring-tx.xsd
 	   http://www.springframework.org/schema/aop
 	   http://www.springframework.org/schema/aop/spring-aop.xsd">
-
+    <context:component-scan base-package="com.itheima.controller"></context:component-scan>
     <!--    <bean id="userDao" class="com.itheima.com.itheima.dao.impl.UserDaoImpl" scope="singleton" >-->
 
+<<<<<<< HEAD:dubbo/out/artifacts/dubboconsumer_war_exploded/WEB-INF/classes/applicationContext.xml
 <!--    &lt;!&ndash;    组件扫描&ndash;&gt;-->
 <!--    <context:component-scan base-package="com.itheima"></context:component-scan>-->
     <!--    </bean>-->
@@ -29,7 +30,19 @@
 
     <!--指定服务的注册中心-->
     <dubbo:registry address="zookeeper:/192.168.1.8:2181"></dubbo:registry>
+=======
+    <!--    <bean id="userDao" class="com.itheima.com.itheima.dao.impl.UserDaoImpl" scope="singleton" >-->
+    <dubbo:application name="dubboconsumer"></dubbo:application>
+
+    <!--指定服务的注册中心-->
+    <dubbo:registry address="zookeeper://10.234.199.10:2181"></dubbo:registry>
+    <dubbo:annotation package="com.itheima.controller"></dubbo:annotation>
+
+>>>>>>> 8241c65d15699a8fa463d16e5941948a71c434e2:dubbo/dubboconsumer/target/dubboconsumer/WEB-INF/classes/applicationContext.xml
     <!--    配置协议和端口-->
 
-    <dubbo:annotation package="com.itheima.controller"></dubbo:annotation>
+    <!--    配置协议和端口-->
+<!--&lt;!&ndash;    <dubbo:annotation package="com.itheima.controller"></dubbo:annotation>&ndash;&gt;-->
+<!--    <context:component-scan base-package="com.itheimarr">-->
+<!--    </context:component-scan>-->
 </beans>

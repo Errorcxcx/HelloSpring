@@ -45,19 +45,19 @@ http://www.springframework.org/schema/mvc http://www.springframework.org/schema/
      </bean>
 <!--    静态资源权限开放-->
     <mvc:default-servlet-handler></mvc:default-servlet-handler>
-<!--    配置拦截器-->
-    <mvc:interceptors>
-        <mvc:interceptor>
-<!--            对哪些资源执行拦截操作-->
-            <mvc:mapping path="/**"/>
-            <bean class="com.itheima.interceptor.MyInterceptor1"></bean>
+<!--&lt;!&ndash;    配置拦截器&ndash;&gt;-->
+<!--    <mvc:interceptors>-->
+<!--        <mvc:interceptor>-->
+<!--&lt;!&ndash;            对哪些资源执行拦截操作&ndash;&gt;-->
+<!--            <mvc:mapping path="/**"/>-->
+<!--            <bean class="com.itheima.interceptor.MyInterceptor1"></bean>-->
 
-        </mvc:interceptor>
-        <mvc:interceptor>
-            <!--            对哪些资源执行拦截操作-->
-            <mvc:mapping path="/**"/>
-            <bean class="com.itheima.interceptor.MyInterceptor2"></bean>
+<!--        </mvc:interceptor>-->
+<!--        <mvc:interceptor>-->
+<!--            &lt;!&ndash;            对哪些资源执行拦截操作&ndash;&gt;-->
+<!--            <mvc:mapping path="/**"/>-->
+<!--            <bean class="com.itheima.interceptor.MyInterceptor2"></bean>-->
 
-        </mvc:interceptor>
-    </mvc:interceptors>
+<!--        </mvc:interceptor>-->
+<!--    </mvc:interceptors>-->
 </beans>

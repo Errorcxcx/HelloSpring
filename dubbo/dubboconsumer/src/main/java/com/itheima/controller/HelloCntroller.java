@@ -6,18 +6,20 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.LinkedList;
+
 @Controller
 @RequestMapping("/hello")
-public class HelloController {
+public class HelloCntroller {
 
-    //到zookeeper注册中心查找服务
     @Reference
-    private HelloService helloService;
+    public HelloService helloService;
 
-    @RequestMapping("/sayhello")
+    @RequestMapping("/hello")
     @ResponseBody
     public String sayHello(String name){
-        System.out.println("ssssssss"+name);
+        System.out.println("ssss");
         return helloService.sayHello(name);
     }
+
 }

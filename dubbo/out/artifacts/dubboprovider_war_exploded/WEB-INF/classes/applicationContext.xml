@@ -34,5 +34,6 @@
     <dubbo:protocol name="dubbo" port="20881"></dubbo:protocol>
 
     <dubbo:annotation package="com.itheima.service.impl"></dubbo:annotation>
+    <!--    <context:component-scan base-package="com.itheima"></context:component-scan>-->
 
 </beans>
