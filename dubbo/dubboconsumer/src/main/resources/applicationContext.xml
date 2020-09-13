@@ -21,14 +21,14 @@
 
     <!--    <bean id="userDao" class="com.itheima.com.itheima.dao.impl.UserDaoImpl" scope="singleton" >-->
 
-    <!--    组件扫描-->
-    <context:component-scan base-package="com.itheima"></context:component-scan>
+<!--    &lt;!&ndash;    组件扫描&ndash;&gt;-->
+<!--    <context:component-scan base-package="com.itheima"></context:component-scan>-->
     <!--    </bean>-->
     <!--每个dubbo应用（服务提供或者消费）都必须指定一个唯一的名称-->
-    <dubbo:application name="dubboprovider"></dubbo:application>
+    <dubbo:application name="dubboconsumer"></dubbo:application>
 
     <!--指定服务的注册中心-->
-    <dubbo:registry address="zookeeper://10.234.199.10:2181"></dubbo:registry>
+    <dubbo:registry address="zookeeper:/192.168.1.8:2181"></dubbo:registry>
     <!--    配置协议和端口-->
 
     <dubbo:annotation package="com.itheima.controller"></dubbo:annotation>
