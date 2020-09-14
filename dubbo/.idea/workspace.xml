@@ -614,8 +614,12 @@
       <workItem from="1599874523822" duration="1241000" />
 =======
       <workItem from="1599457746873" duration="43970000" />
+<<<<<<< Updated upstream
       <workItem from="1599550046488" duration="9562000" />
 >>>>>>> 8241c65d15699a8fa463d16e5941948a71c434e2
+=======
+      <workItem from="1599550046488" duration="10164000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
@@ -692,10 +696,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="274" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599473985278" />
-    <state x="740" y="291" key="FileChooserDialogImpl" timestamp="1599545906392">
+    <state x="740" y="291" key="FileChooserDialogImpl" timestamp="1600048070106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="291" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599545906392" />
+    <state x="740" y="291" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600048070106" />
     <state width="1524" height="321" key="GridCell.Tab.0.bottom" timestamp="1599786073388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
