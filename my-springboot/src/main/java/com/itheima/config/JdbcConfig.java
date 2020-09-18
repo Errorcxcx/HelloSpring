@@ -10,7 +10,7 @@ import org.springframework.context.annotation.PropertySource;
 
 import javax.sql.DataSource;
 
-@Configuration
+//@Configuration
 //@EnableConfigurationProperties(JdbcProperties.class)
 //@PropertySource("classpath:application.yml")
 public class JdbcConfig {
@@ -43,10 +43,10 @@ public class JdbcConfig {
 //        dataSource.setPassword(jdbcProperties.getPassword());
 //        dataSource.setUrl(jdbcProperties.getUrl());
 //        return dataSource;
+////    }
+//    @Bean
+//    @ConfigurationProperties(prefix = "jdbc")
+//    public DataSource dataSource(){
+//        return new DruidDataSource();
 //    }
-    @Bean
-    @ConfigurationProperties(prefix = "jdbc")
-    public DataSource dataSource(){
-        return new DruidDataSource();
-    }
 }

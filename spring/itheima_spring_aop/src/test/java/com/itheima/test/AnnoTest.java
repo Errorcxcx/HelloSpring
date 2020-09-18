@@ -17,5 +17,6 @@ public class AnnoTest {
     @Test
     public void test1(){
         target.save();
+        String abc = new String("sdd");
     }
 }

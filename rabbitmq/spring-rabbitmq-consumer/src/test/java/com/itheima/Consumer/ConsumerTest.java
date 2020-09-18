@@ -10,12 +10,13 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class ConsumerTest {
 
     @Test
-    public void test1(){
+    public void test1() {
+//
+//        boolean flag = true;
+//        while(true){
+//
+//        }
 
-        boolean flag = true;
-        while(true){
 
-        }
     }
-
-}
+}  

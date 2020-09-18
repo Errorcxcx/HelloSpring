@@ -129,7 +129,7 @@
       <recent name="E:\HellowSpring\HelloSpring\rabbitmq\spring-rabbitmq-consumer\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProducerTest.test">
+  <component name="RunManager" selected="JUnit.ConsumerTest.test1">
     <configuration name="producer_topic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.itheima.producer_topic" />
       <module name="rabbitmq-consumer" />
@@ -209,8 +209,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProducerTest.test" />
         <item itemvalue="JUnit.ConsumerTest.test1" />
+        <item itemvalue="JUnit.ProducerTest.test" />
         <item itemvalue="JUnit.ProducerTest.test2" />
         <item itemvalue="JUnit.ProducerTest.test1" />
         <item itemvalue="Application.producer_topic" />
@@ -241,7 +241,7 @@
       <updated>1599906154563</updated>
       <workItem from="1599906156059" duration="12080000" />
       <workItem from="1600052227645" duration="1212000" />
-      <workItem from="1600053481064" duration="17026000" />
+      <workItem from="1600053481064" duration="19503000" />
     </task>
     <servers />
   </component>
@@ -261,22 +261,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600062446084" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1600073743048">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1600397353075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600073743048" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1600073743046">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600397353075" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1600397353075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600073743046" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1600073743044">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600397353075" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1600397353074">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600073743044" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1600073743048">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600397353074" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1600397353075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600073743048" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600397353075" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1600053671503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
