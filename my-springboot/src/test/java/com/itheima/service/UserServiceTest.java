@@ -7,6 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class UserServiceTest {
@@ -29,18 +33,24 @@ public class UserServiceTest {
 //        System.out.println("s4  "+s4.hashCode());
 //        System.out.println("s5  "+s5.hashCode());
 ////        System.out.println("s3  "+s3.hashCode());
-            String s1 = "hello";
-            String s2 = "hello";
-            String s3 = new String("hello");
-            String s4 = new String("hello");
-        System.out.println(s1 == s2);
-        System.out.println(s1 == s3);
-        System.out.println(s1 == s2);
-
-        System.out.println(s1 == s3.intern());
-        System.out.println(s2 == s3.intern());
-        System.out.println(s2 == s4.intern());
-
+//            String s1 = "hello";
+//            String s2 = "hello";
+//            String s3 = new String("hello");
+//            String s4 = new String("hello");
+//        System.out.println(s1 == s2);
+//        System.out.println(s1 == s3);
+//        System.out.println(s1 == s2);
+//
+//        System.out.println(s1 == s3.intern());
+//        System.out.println(s2 == s3.intern());
+//        System.out.println(s2 == s4.intern());
+        List list = new ArrayList();
+        list.add(1);
+        list.add(2);
+        Integer[] integers = (Integer[]) list.toArray(new Integer[list.size()]);
+        System.out.println(integers[1]);
+        List list1 = Arrays.asList(integers);
+        System.out.println(list1.get(1));
     }
 
     @Test
