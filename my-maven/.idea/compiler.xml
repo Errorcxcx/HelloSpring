@@ -8,11 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="servlet-03" />
         <module name="servlet-02" />
+        <module name="request" />
         <module name="response-download" />
+        <module name="javaweb-session-cookie" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="java-web" target="11" />
+      <module name="request" target="1.7" />
       <module name="servlet-01" target="12" />
       <module name="untitled" target="12" />
     </bytecodeTargetLevel>

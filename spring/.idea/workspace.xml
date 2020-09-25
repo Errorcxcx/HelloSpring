@@ -168,7 +168,7 @@
       <updated>1600062447526</updated>
       <workItem from="1600062449236" duration="27295000" />
       <workItem from="1600743461406" duration="7706000" />
-      <workItem from="1600770754177" duration="5514000" />
+      <workItem from="1600770754177" duration="12646000" />
     </task>
     <servers />
   </component>
@@ -184,6 +184,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600685176202" />
+    <state x="697" y="378" width="526" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1600931617240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="697" y="378" width="526" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600931617240" />
     <state x="221" y="235" key="FileChooserDialogImpl" timestamp="1600756702757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

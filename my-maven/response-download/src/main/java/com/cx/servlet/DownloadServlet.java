@@ -12,16 +12,15 @@ import java.io.IOException;
 public class DownloadServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String realPath = this.getServletContext().getRealPath("E:\\HellowSpring\\HelloSpring\\my-maven\\response-download\\src\\main\\resources\\miliao.png");
+        String realPath = "E:\\HellowSpring\\HelloSpring\\my-maven\\response-download\\src\\main\\resources\\miliao.png";
         String fileName = realPath.substring(realPath.lastIndexOf("\\") + 1);
-        resp.setHeader("Content-Disposition","attachment:filename="+fileName);
+        resp.setHeader("Content-Disposition","attachment;filename="+fileName);
         FileInputStream in = new FileInputStream(realPath);
         int len = 0;
         byte[] bytes = new byte[1024];
         ServletOutputStream outputStream = resp.getOutputStream();
-        BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(outputStream);
         while ((len = in.read(bytes))!=-1){
-            bufferedOutputStream.write(bytes,0,len);
+            outputStream.write(bytes,0,len);
         }
         in.close();
         outputStream.close();
