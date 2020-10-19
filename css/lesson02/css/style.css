@@ -1,0 +1,35 @@
+#nav {
+    width: 300px;
+    background: green;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    text-indent: 1em;
+    line-height:50px;
+    background: red url("../images/d.jpg") 250px 1px no-repeat;
+}
+
+ul {
+    background: aqua;
+}
+
+ul li {
+    background: bisque url("../images/r.jpg") 210px 1px no-repeat;
+
+    height: 30px;
+    list-style: none;
+    text-indent: 1em;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+a:hover {
+    color: orange;
+
+}

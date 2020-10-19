@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="lib/jquery-3.5.1.js"></script>
+    <style>
+        #div1{
+            width: 500px;
+            height: 500px;
+            border: 3px solid red;
+        }
+    </style>
+</head>
+<body>
+<!--<a href="" id="test-jquery">点击我</a>-->
+坐标：<span id="span1"></span>
+<div id="div1"></div>
+<script>
+    // $('#test-jquery').click(function () {
+    //     alert('ssssssss')
+    // })
+    $(function () {
+        $('#div1').mousemove(function (e) {
+            $('#span1').text('x'+e.pageX+' y'+e.pageY)
+        })
+    })
+</script>
+</body>
+</html>

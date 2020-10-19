@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #father{
+            border: 3px solid green;
+            /*overflow: auto;*/
+
+        }
+        #div1{
+            border: 3px solid red;
+            float: right;
+            display: inline-block;
+
+        }
+        #div2{
+            border: 3px solid red;
+            display: inline-block;
+            float: left;
+
+        }
+        #div3{
+            border: 3px solid red;
+            display: inline-block;
+            float: right;
+
+        }
+        #div4{
+            border: 3px solid red;
+            display: inline-block;
+            float: right;
+
+        }
+        /*#div5{*/
+        /*    width: 20px;*/
+        /*    height: 20px;*/
+        /*    background: aquamarine;*/
+        /*    !*clear: both;*!*/
+
+        /*}*/
+        #father:after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+<div id="father">
+    <div id="div1">
+        <img src="images/jia1.jpg">
+    </div>
+    <div id="div2">
+        <img src="images/jia2.jpg">
+
+    </div>
+    <div id="div3">
+        <img src="images/jia3.jpg">
+
+    </div>
+    <div id="div4">
+        <img src="images/jia4.jpg">
+
+    </div>
+<!--    <div id="div5">-->
+
+<!--    </div>-->
+</div>
+</body>
+</html>

@@ -14,6 +14,8 @@ public class TargetController {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("name","xiaomi");
         modelAndView.setViewName("forward:/index.jsp");
+        String[] strings = new String[]{"s","s"};
+        int[] nums = new int[]{1,2,3,4};
         return modelAndView;
     }
 }

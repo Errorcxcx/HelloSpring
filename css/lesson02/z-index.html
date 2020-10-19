@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #content {
+            padding: 0px;
+            margin: 0px;
+            width: 300px;
+            overflow: hidden;
+            font-size: 20px;
+            line-height: 40px;
+            border: 1px solid black;
+        }
+
+        ul,li {
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+        }
+        #content ul{
+            position: relative;
+        }
+        .tipText,.tipBg{
+            position: absolute;
+            width: 380px;
+            height: 40px;
+            top: 179px;
+        }
+        .tipText{
+            color: white;
+            z-index: 999;
+        }
+        .tipBg{
+            background:black;
+            opacity: 0.5;/* 背景透明度*/
+
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    <ul>
+        <li><img src="images/bg_icon_girl.jpg" alt=""></li>
+        <li class="tipText">学习学习再学习</li>
+        <li class="tipBg"></li>
+        <li>时间：2099/6/6</li>
+        <li>红浪漫洗浴中心</li>
+
+    </ul>
+
+</div>
+</body>
+</html>
