@@ -9,6 +9,11 @@ const constRoutes =[
     path:'/',
     component: ()=>import('../views/Home'),
     name:'Home'
+  },
+  {
+    path:'/Login',
+    component:()=>import('../views/Login'),
+    name:'/Login'
   }
 ]
 
