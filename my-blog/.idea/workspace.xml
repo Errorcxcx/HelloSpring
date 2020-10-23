@@ -28,9 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -57,11 +57,13 @@
     <property name="ts.external.directory.path" value="D:\IntelliJ IDEA 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\HellowSpring\HelloSpring\my-blog\my-blog\src\components" />
+      <recent name="E:\HellowSpring\HelloSpring\my-blog\my-blog\src\views" />
+      <recent name="H:\my-blog\my-blog\src\views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\my-blog\my-blog\src\components" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\my-blog\my-blog\src\views" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -91,7 +93,7 @@
       <workItem from="1603157993641" duration="15645000" />
       <workItem from="1603184980556" duration="536000" />
       <workItem from="1603185523552" duration="74000" />
-      <workItem from="1603185613571" duration="51454000" />
+      <workItem from="1603185613571" duration="63748000" />
     </task>
     <servers />
   </component>
@@ -115,10 +117,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603353705601" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603361016417">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603445366338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603361016417" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603445366338" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

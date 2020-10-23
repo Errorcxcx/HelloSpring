@@ -13,7 +13,12 @@ const constRoutes =[
   {
     path:'/Login',
     component:()=>import('../views/Login'),
-    name:'/Login'
+    name:'Login'
+  },
+  {
+    path:'/Share',
+    component:()=>import('../components/ShareList'),
+    name:'Share'
   }
 ]
 

@@ -4,6 +4,7 @@
       <cx-header></cx-header>
       <div class="container">
         <el-col :sm="24" :md="16" style="transition:all .5s ease-out;margin-bottom:30px;">
+          <share></share>
         </el-col>
         <el-col :sm="24"  :md="8">
         </el-col>
@@ -13,9 +14,10 @@
 
 <script>
   import CxHeader from '../components/CxHeader'
+  import ShareList from "../components/ShareList";
     export default {
         name: "Home",
-        components:{CxHeader}
+        components:{ShareList, CxHeader,}
     }
 </script>
 
