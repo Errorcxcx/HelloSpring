@@ -7,6 +7,7 @@
           <share-list></share-list>
         </el-col>
         <el-col :sm="24"  :md="8">
+          <right-list></right-list>
         </el-col>
       </div>
     </div>
@@ -15,9 +16,10 @@
 <script>
   import CxHeader from '../components/CxHeader'
   import ShareList from "../components/ShareList";
+  import RightList from "../components/RightList";
     export default {
         name: "Home",
-        components:{ShareList, CxHeader,}
+        components:{ShareList, CxHeader,RightList}
     }
 </script>
 
