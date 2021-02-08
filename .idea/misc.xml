@@ -3,6 +3,9 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/dubbo/dubboconsumer" />
     <file type="web" url="file://$PROJECT_DIR$/dubbo/dubboprovider" />
+    <file type="web" url="file://$PROJECT_DIR$/HelloMaven" />
+    <file type="web" url="file://$PROJECT_DIR$/jredis" />
+    <file type="web" url="file://$PROJECT_DIR$/my-maven/javaweb-session-cookie" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -13,6 +16,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo/dubboprovider/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo/dubboconsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/HelloMaven/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/itheima-spring-tx-anno/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-02-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/my-maven/javaweb-session-cookie/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/itheima_spring_ioc/pom.xml" />
       </list>
     </option>
   </component>

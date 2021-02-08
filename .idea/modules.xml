@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/HelloMaven/HelloMaven.iml" filepath="$PROJECT_DIR$/HelloMaven/HelloMaven.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/HelloSpring.iml" filepath="$PROJECT_DIR$/.idea/HelloSpring.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo/dubboconsumer/dubboconsumer.iml" filepath="$PROJECT_DIR$/dubbo/dubboconsumer/dubboconsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo/dubboprovider/dubboprovider.iml" filepath="$PROJECT_DIR$/dubbo/dubboprovider/dubboprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/itheima-spring-tx-anno/itheima-spring-tx-anno.iml" filepath="$PROJECT_DIR$/spring/itheima-spring-tx-anno/itheima-spring-tx-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/itheima_spring_ioc/itheima_spring_ioc.iml" filepath="$PROJECT_DIR$/spring/itheima_spring_ioc/itheima_spring_ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-maven/javaweb-session-cookie/javaweb-session-cookie.iml" filepath="$PROJECT_DIR$/my-maven/javaweb-session-cookie/javaweb-session-cookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jredis/jredis.iml" filepath="$PROJECT_DIR$/jredis/jredis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-02-springboot/redis-02-springboot.iml" filepath="$PROJECT_DIR$/redis-02-springboot/redis-02-springboot.iml" />
     </modules>
   </component>
 </project>

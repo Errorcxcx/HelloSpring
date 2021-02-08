@@ -2,7 +2,7 @@ package com.itheima.dao.impl;
 
 import com.itheima.dao.UserDao;
 
-public class UserDaoImpl implements UserDao {
+public class UserDaoImpl implements UserDao{
     private String userName;
     private int age;
 

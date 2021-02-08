@@ -241,7 +241,13 @@
       <artifactId>commons-io</artifactId>
       <version>2.4</version>
     </dependency>
-    <!-- log end -->
+      <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>4.13</version>
+          <scope>compile</scope>
+      </dependency>
+      <!-- log end -->
   </dependencies>
 
   <build>

@@ -2,19 +2,36 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dubboconsumer" />
-        <module name="HelloSpring" />
+        <module name="itheima_spring_ioc" />
+        <module name="redis-02-springboot" />
         <module name="dubboprovider" />
+        <module name="javaweb-session-cookie" />
+        <module name="HelloMaven" />
+        <module name="jredis" />
+        <module name="itheima-spring-tx-anno" />
+        <module name="dubboconsumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dubboconsumer" target="11" />
       <module name="dubboprovider" target="11" />
+      <module name="HelloMaven" target="1.7" />
       <module name="HelloSpring" target="1.5" />
+      <module name="itheima-spring-tx-anno" target="11" />
+      <module name="itheima_spring_ioc" target="11" />
+      <module name="javaweb-session-cookie" target="1.7" />
+      <module name="jredis" target="1.7" />
+      <module name="redis-02-springboot" target="11" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="redis-02-springboot" options="-parameters" />
+    </option>
   </component>
 </project>

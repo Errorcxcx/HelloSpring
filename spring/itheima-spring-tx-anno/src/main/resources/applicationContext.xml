@@ -15,7 +15,7 @@
 
     <!--    <bean id="userDao" class="com.itheima.com.itheima.dao.impl.UserDaoImpl" scope="singleton" >-->
 
-<!--    组件扫描-->
+<!--    组件扫描-->accountService
     <context:component-scan base-package="itheima"></context:component-scan>
     <!--    </bean>-->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">

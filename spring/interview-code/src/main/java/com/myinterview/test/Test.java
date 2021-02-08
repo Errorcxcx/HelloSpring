@@ -123,4 +123,7 @@ public class Test {
         System.out.println(nums[0]);
         System.out.println(nums[nums.length-1]);
     }
+    public static void test_07_{
+
+    }
 }
