@@ -20,18 +20,13 @@
     <bytecodeTargetLevel>
       <module name="dubboconsumer" target="11" />
       <module name="dubboprovider" target="11" />
-      <module name="HelloMaven" target="1.7" />
-      <module name="HelloSpring" target="1.5" />
+      <module name="HelloMaven" target="11" />
+      <module name="HelloSpring" target="13" />
       <module name="itheima-spring-tx-anno" target="11" />
       <module name="itheima_spring_ioc" target="11" />
       <module name="javaweb-session-cookie" target="1.7" />
       <module name="jredis" target="1.7" />
       <module name="redis-02-springboot" target="11" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="redis-02-springboot" options="-parameters" />
-    </option>
   </component>
 </project>

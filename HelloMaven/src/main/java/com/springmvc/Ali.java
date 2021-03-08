@@ -106,46 +106,30 @@ public class Ali {
     }
 
     public static void kuaisu(int begin, int last, int[] nums) {
-        int left = begin;
-        int right = last;
-        if (left >= right) return;
-        int key = nums[left];
-        while (left < right) {
-            while (left < right && key <= nums[right]) {
-                right--;
-            }
-            if (left < right) {
-                nums[left] = nums[right];
-                left++;
-            }
-            while (left < right && key > nums[left]) {
-                left++;
+       int left = begin;
+       int right = last;
+       if(left>=right) return;
+       int key = nums[left];
+       while (left<right){
+           while (left<right&&key<=nums[right]){
+               right--;
+           }
+           if(left<right){
+               nums[left] = nums[right];
+               left++;
+           }
+           while (left<right&&key>nums[left]){
+               left++;
+           }
+           if(left<right){
+               nums[right] = nums[left];
+               right--;
+           }
+       }
+       nums[left] = key;
+       kuaisu(begin,left-1,nums);
+        kuaisu(left+1,last,nums);
 
-            }
-            if (left < right) {
-                nums[right] = nums[left];
-                right--;
-            }
-        }
-        nums[right] = key;
-        kuaisu(begin,right-1,nums);
-        kuaisu(right+1,last,nums);
-    }
-
-    public static Set get(int min, int max, int n) {
-        Random r = new Random();
-        Double num;
-        Set set = new HashSet<Double>();
-        while (set.size() < n) {
-            num = r.nextDouble() * (max - min) + min;
-            set.add(num);
-        }
-        for (Object s : set
-        ) {
-            Double s1 = (Double) s;
-            System.out.println(s1);
-        }
-        return set;
     }
 
 

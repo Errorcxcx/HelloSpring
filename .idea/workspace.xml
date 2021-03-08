@@ -62,19 +62,32 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11.0.4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/itheima_spring_ioc/pom.xml" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.TestPing">
+  <component name="RunManager" selected="Application.B">
     <configuration name="Ali" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springmvc.Ali" />
       <module name="HelloMaven" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.springmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cx.B" />
+      <module name="jredis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,25 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.demo.UserDaoDemo" />
+    <configuration name="UserDaoDemoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.demo.UserDaoDemoo" />
       <module name="itheima_spring_ioc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XianChengChi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springmvc.test.XianChengChi" />
-      <module name="HelloMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springmvc.test.*" />
+          <option name="PATTERN" value="com.itheima.demo.UserDaoDemoo" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.B" />
+        <item itemvalue="Application.UserDaoDemoo" />
         <item itemvalue="Application.TestPing" />
-        <item itemvalue="Application.UserDaoDemo" />
         <item itemvalue="Application.Ali" />
         <item itemvalue="Application.TestTX" />
-        <item itemvalue="Application.XianChengChi" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +188,12 @@
       <workItem from="1609999869743" duration="5686000" />
       <workItem from="1610325419322" duration="6906000" />
       <workItem from="1610450636894" duration="144218000" />
-      <workItem from="1612520977448" duration="18477000" />
+      <workItem from="1612520977448" duration="41580000" />
+      <workItem from="1614130875009" duration="12511000" />
+      <workItem from="1614246628885" duration="3270000" />
+      <workItem from="1614310942022" duration="4828000" />
+      <workItem from="1614325757830" duration="11805000" />
+      <workItem from="1614758858111" duration="6259000" />
     </task>
     <servers />
   </component>
@@ -196,78 +201,78 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602816892108">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1368" y="178" key="#Project_Structure" timestamp="1613984369655">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602816892108" />
+    <state x="-1368" y="178" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1613984369655" />
+    <state x="-1506" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614246708190">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1506" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614246708190" />
     <state x="-1155" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1612175640625">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1155" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1612175640625" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1611818304172" />
-    <state x="-1340" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1602817880516">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1340" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602817880516" />
-    <state x="-1114" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1602818323158">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1114" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602818323158" />
-    <state x="806" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602816649867" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1611818278849">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614914264231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1180" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602818496806" />
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1611818278849" />
-    <state width="1877" height="186" key="GridCell.Tab.0.bottom" timestamp="1612346102746">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614914264231" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1614324776275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1612174638909" />
-    <state width="1877" height="186" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1612346102746" />
-    <state width="1877" height="186" key="GridCell.Tab.0.center" timestamp="1612346102745">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614324776275" />
+    <state width="1877" height="226" key="GridCell.Tab.0.bottom" timestamp="1614680121789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1612174638909" />
-    <state width="1877" height="186" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1612346102745" />
-    <state width="1877" height="186" key="GridCell.Tab.0.left" timestamp="1612346102745">
+    <state width="1877" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614248213578" />
+    <state width="1877" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614680121789" />
+    <state width="1877" height="226" key="GridCell.Tab.0.center" timestamp="1614680121789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1612174638909" />
-    <state width="1877" height="186" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1612346102745" />
-    <state width="1877" height="186" key="GridCell.Tab.0.right" timestamp="1612346102745">
+    <state width="1877" height="183" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614248213578" />
+    <state width="1877" height="226" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614680121789" />
+    <state width="1877" height="226" key="GridCell.Tab.0.left" timestamp="1614680121789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1612174638909" />
-    <state width="1877" height="186" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1612346102745" />
-    <state width="1877" height="226" key="GridCell.Tab.1.bottom" timestamp="1612320483248">
+    <state width="1877" height="183" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614248213578" />
+    <state width="1877" height="226" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614680121789" />
+    <state width="1877" height="226" key="GridCell.Tab.0.right" timestamp="1614680121789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="226" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1612320483248" />
-    <state width="1877" height="226" key="GridCell.Tab.1.center" timestamp="1612320483247">
+    <state width="1877" height="183" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614248213578" />
+    <state width="1877" height="226" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614680121789" />
+    <state width="1877" height="226" key="GridCell.Tab.1.bottom" timestamp="1614680122123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="226" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1612320483247" />
-    <state width="1877" height="226" key="GridCell.Tab.1.left" timestamp="1612320483247">
+    <state width="1877" height="226" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614246615682" />
+    <state width="1877" height="226" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614680122123" />
+    <state width="1877" height="226" key="GridCell.Tab.1.center" timestamp="1614680122123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="226" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1612320483247" />
-    <state width="1877" height="226" key="GridCell.Tab.1.right" timestamp="1612320483248">
+    <state width="1877" height="226" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614246615682" />
+    <state width="1877" height="226" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614680122123" />
+    <state width="1877" height="226" key="GridCell.Tab.1.left" timestamp="1614680122123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="226" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1612320483248" />
+    <state width="1877" height="226" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614246615682" />
+    <state width="1877" height="226" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614680122123" />
+    <state width="1877" height="226" key="GridCell.Tab.1.right" timestamp="1614680122123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="226" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614246615682" />
+    <state width="1877" height="226" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614680122123" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1608627702112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608627702112" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1611818256515">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1614311264350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1480" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602818332853" />
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1611818256515" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614311264350" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1610325435422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1280" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602817592137" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610325435422" />
     <state x="334" y="129" key="new project wizard" timestamp="1609833521119">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -292,19 +297,39 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/HelloMaven/src/main/java/com/springmvc/Ali.java</url>
-          <line>113</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/jredis/src/main/java/com/cx/TestPing.java</url>
-          <line>152</line>
+          <line>236</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/jredis/src/main/java/com/cx/TestPing.java</url>
-          <line>86</line>
+          <line>170</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jredis/src/main/java/com/cx/TestPing.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jredis/src/main/java/com/cx/TestPing.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jredis/src/main/java/com/cx/TestPing.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring/itheima_spring_ioc/src/main/java/com/itheima/demo/UserDaoDemoo.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring/itheima_spring_ioc/src/main/java/com/itheima/demo/UserDaoDemoo.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/spring/itheima_spring_ioc/src/main/java/com/itheima/service/impl/UserServiceImpl.java</url>

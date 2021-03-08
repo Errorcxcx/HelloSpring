@@ -2,15 +2,21 @@ package com.cx;
 
 import redis.clients.jedis.Jedis;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Scanner;
 import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.PriorityBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 
 public class TestPing {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, IOException {
 //        Jedis jedis =new Jedis("localhost",6379);
 //        String result = jedis.ping();
 //        System.out.println(result);
@@ -57,12 +63,90 @@ public class TestPing {
 //        int[] B = {2};
 //        merge(A,1,B,1);
 //        test("sss");
-        int[] nums = {2, 2, 3, 4, 5, 6, 3};
-
-        String tr = "abcddefghinc";
-        System.out.println(test2(nums));
+//        int[] nums = {2, 2, 3, 4, 5, 6, 3};
+//
+//        String tr = "abcddefghinc";
+////        System.out.println(test2(nums));
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//
+//        Scanner sc = new Scanner(System.in);
+//        String input;
+//        while((input = br.readLine())!=null){
+//            String[] strs = input.split(" ");
+//            int result = 0;
+//            for(int i =strs.length-1;i>=0;i-- ){
+//                if(strs[i].length() == 0){
+//                    continue;
+//                }
+//                result = strs[i].length();
+//            }
+//            System.out.print(result);
+//        }
+//        int times=0;
+//        InputStream in=System.in;
+//        char c=(char) in.read();
+//        while(c!='\n'){
+//            if(c==' '){
+//                times=0;
+//            }else{
+//                times+=1;
+//            }
+//            c=(char) in.read();
+//        }
+//        System.out.println(times);
+//        System.out.println(zijie(5, 25));
+        int[] nums = {3,6,7,11};
+        System.out.println(banZhuan(nums, 8));
     }
 
+    public static int banZhuan(int[] nums,int hour){
+        int max = nums[0];
+        int result = 0;
+        int totalH = 0;
+        for(int i = 1;i<nums.length;i++){
+            max = Math.max(max,nums[i]);
+        }
+        if(hour == nums.length){
+            return max;
+        }
+        for(int i = max;i>=1;i--){
+            for(int j = 0;j<nums.length;j++){
+                int hour1 ;
+                if(nums[j]%i == 0){
+                    hour1= nums[j]/i;
+
+                }else {
+                    hour1 = nums[j] / i + 1;
+                }
+                totalH = totalH+hour1;
+            }
+            if(totalH == hour){
+                result = i;
+            }else {
+                if(totalH>hour){
+                    break;
+                }
+            }
+            totalH = 0;
+        }
+        return result;
+    }
+
+    public static int zijie(int m,int n){
+        Scanner inM = new Scanner(System.in);
+        Scanner inN = new Scanner(System.in);
+        m = inM.nextInt();
+        n = inN.nextInt();
+        int times = 0;
+        for(int i = 2;i<=m;i++){
+            for(int j = 2;j<=m;j++){
+                if(i*j == n){
+                    times++;
+                }
+            }
+        }
+        return times;
+    }
     //数组中连续最长子串[2,2,3,4,3]
     public static int test2(int[] arr) {
         int start = 0;
